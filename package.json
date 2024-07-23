@@ -1,0 +1,21 @@
+{
+  "name": "altiushub",
+  "version": "1.0.0",
+  "description": "Mini Audio Player",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Harish Goud",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "elastic-client": "^0.0.3",
+    "express": "^4.19.2",
+    "mongoose": "^8.5.1",
+    "nodemon": "^3.1.4",
+    "socket.io": "^4.7.5"
+  }
+}
